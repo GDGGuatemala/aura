@@ -17,11 +17,11 @@
 
         <v-layout wrap align-center justify-center row fill-height class="mt-0 mb-0" >
            <v-flex xs12 md12 lg12 class="pa-2 mb-0">
-               <p class="google-font mb-0" style="font-size:170%;color:#0277bd">Directory of past events</p>
+               <p class="google-font mb-0" style="font-size:170%;color:#0277bd">Directorio de eventos pasados</p>
                <p class="google-font mt-0 mb-0" style="font-size:110%;color:#616161 ">
-                   Events are listed in reverse chronological order by date.
+                   Los eventos se enumeran en orden cronológico inverso por fecha.
                </p>     
-               <p class="google-font" style="font-size:110%;color:#616161 ">Here are the recent 10 meetups. To know more about the past meetups <a :href="chapterDetails.ChapterMeetupLink" target="_blank" style="text-decoration:none;color:#0277bd">Click here</a></p>
+               <p class="google-font" style="font-size:110%;color:#616161 ">Aquí están los 10 últimos encuentros. Para saber más sobre las reuniones pasadas <a :href="chapterDetails.ChapterMeetupLink" target="_blank" style="text-decoration:none;color:#0277bd">haga clic aquí</a></p>
 
             </v-flex> 
         </v-layout>
@@ -81,7 +81,7 @@
                                         <v-icon color="grey darken-1">info</v-icon>
                                     </v-btn>
                                     
-                                    <span>See More about {{item.name}}</span>
+                                    <span>Ver Más sobre {{item.name}}</span>
                                 </v-tooltip>
                             </v-list-tile-action>
                             
@@ -93,7 +93,7 @@
             </v-flex>
 
             <v-flex xs12 v-if="notFoundPastEventFlag==true">
-                <p class="google-font px-2" style="font-size:140%"><v-icon >highlight_off</v-icon> Past Events Not Found!</p>
+                <p class="google-font px-2" style="font-size:140%"><v-icon >highlight_off</v-icon> ¡Eventos pasados no encontrados!</p>
             </v-flex>
 
             
@@ -153,7 +153,7 @@ export default {
 
         dateFilter: (value)=>{
             const date = new Date(value)
-            return date.toLocaleString(['en-US'], {month: 'short', day: '2-digit', year: 'numeric'})
+            return date.toLocaleString(['es-GT'], {month: 'short', day: '2-digit', year: 'numeric'})
         }
     }
 }

@@ -27,14 +27,14 @@
                     {{eventDetails.EventTime.StartTime +' - '+ eventDetails.EventTime.EndTime}}
                     &nbsp;
                     <v-icon small>map</v-icon>
-                    {{eventDetails.EventVenue | summery(50)}} <a :href="eventDetails.EventVenueMapLink" target="_blank">(Map)</a>
+                    {{eventDetails.EventVenue | summery(50)}} <a :href="eventDetails.EventVenueMapLink" target="_blank">(Mapa)</a>
                 </span>    
                <p class="google-font mt-2 mb-1" style="font-size:115%;color:#757575">
                    {{eventDetails.EventDescription}}
                </p>
                 
                 <v-btn color="#1a73e8" v-if="eventDetails.RegistrationLink.length>0" :href="eventDetails.RegistrationLink" target="_blank" class="ma-0 elevation-0 my-2" dark style="text-transform: capitalize;border-radius:5px;"> 
-                    Registration Link
+                    Enlace de Registro
                 </v-btn>
                 &nbsp;
 
