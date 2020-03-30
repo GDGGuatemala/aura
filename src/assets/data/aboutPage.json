@@ -1,32 +1,32 @@
 {
     "communityGuideline":[
         {
-            "name":"Be nice",
-            "des":"We're all part of the same community, so be friendly, welcoming, and generally a nice person. Be someone that other people want to be around."
+            "name":"Sé bueno",
+            "des":"Todos somos parte de la misma comunidad, así que sé amable, acogedor y, en general, una buena persona. Sé alguien con quien otras personas quieran estar."
         },
         {
-            "name":"Be respectful and constructive",
-            "des":"Remember to be respectful and constructive with your communication to fellow members. Don't get into flamewars, make personal attacks, vent, or rant unconstructively. Everyone should take responsibility for the community and take the initiative to diffuse tension and stop a negative thread as early as possible."
+            "name":"Sé respetuoso y constructivo",
+            "des":"Recuerda ser respetuoso y constructivo con tu comunicación con los demás miembros. No entres en llamas, realices ataques personales, desahogues o divagues de manera poco constructiva. Todos deberían asumir la responsabilidad de la comunidad y tomar la iniciativa de disipar la tensión y detener un hilo negativo lo antes posible."
         },
         {
-            "name":"Be collaborative",
-            "des":"Work together! We can learn a lot from each other. Share knowledge, and help each other out."
+            "name":"Sé colaborativo",
+            "des":"¡Trabajemos juntos! Podemos aprender mucho el uno del otro. Compartamos conocimientos y ayudemonos mutuamente."
         },
         {
-            "name":"Participate",
-            "des":"Join in on discussions, show up for in-person meetings regularly, offer feedback, and help implement that feedback."
+            "name":"Participa",
+            "des":"Participa en las discusiones, asiste regularmente a reuniones en persona, ofrece comentarios y ayuda a implementar esos comentarios."
         },
         {
-            "name":"Step down considerately",
-            "des":"If you have some form of responsibility in your community, be aware of your own constraints. If you know that a new job or personal situation will limit your time, find someone who can take over for you and transfer the relevant information (contacts, passwords, etc.) for a smooth transition."
+            "name":"Retirate considerado",
+            "des":"Si tienes alguna forma de responsabilidad en tu comunidad, ten en cuenta tus propias limitaciones. Si sabes que un nuevo trabajo o situación personal limitará tu tiempo, busca a alguien que pueda hacerse cargo de ti y transfiere la información relevante (contactos, contraseñas, etc.) para una transición sin problemas."
         },
         {
-            "name":"Basic etiquette for online discussions",
-            "des":"Don’t send messages to a big list that only need to go to one person. Keep off topic conversations to a minimum. Don’t be spammy by advertising or promoting personal projects which are off topic."
+            "name":"Etiqueta básica para discusiones en línea",
+            "des":"No envíes mensajes a una lista grande que solo tenga que ir a una persona. Manten las conversaciones sobre temas al mínimo. No seas spam publicitando o promocionando proyectos personales que estén fuera de tema."
         }
 
     ],
-    "coc":"When you join our programs, you’re joining a community. And like any growing community, a few ground rules about expected behavior are good for everyone. These guidelines cover both online (e.g. mailing lists, social channels) and offline (e.g. in-person meetups) behavior. Violations of this code of conduct can result in members being removed from the program. Use your best judgement, and if you’d like more clarity or have questions feel free to reach out."
+    "coc":"Cuando te unes a nuestros programas, te unes a una comunidad. Y como cualquier comunidad en crecimiento, algunas reglas básicas sobre el comportamiento esperado son buenas para todos. Estas pautas cubren tanto el comportamiento en línea (por ejemplo, listas de correo, canales sociales) como fuera de línea (por ejemplo, reuniones en persona). Las violaciones de este código de conducta pueden resultar en la eliminación de los miembros del programa. Usa tu mejor criterio, y si deseas mayor claridad o tienes preguntas, no dudes en comunicarte."
 
 
 }
