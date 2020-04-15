@@ -7,7 +7,7 @@
             <p class="google-font mb-0" style="font-size:200%;color:#616161">Nuestra formación de grandes pensadores e incluso más grandes hacedores.</p>
             <p class="google-font mt-0 mb-0" style="font-size:110%">Google es conocido en todo el mundo. Todos están 'googliando', revisando 'mapas' y comunicándose en 'gmail'. Para usuarios simples, son servicios que simplemente funcionan, pero no para nosotros. Los desarrolladores ven mucho más: APIs, problemas de escalabilidad, stacks tecnologícos complejos. Y de eso se trata GDG. </p>
 
-            <p class="google-font mt-3 mb-0" style="font-size:110%">Nuestro objetivo es organizar el espacio para conectar a los mejores expertos de la industria con el público guatemalteco para impulsar el desarrollo de TI. Y nuestro equipo central es: </p>
+            <p class="google-font mt-3 mb-0" style="font-size:110%">Nuestro objetivo es organizar el espacio para conectar a los mejores expertos de la industria con el público guatemalteco para impulsar el desarrollo de TI.</p>
 
         </v-flex>
       </v-layout>

@@ -1,46 +1,19 @@
 [
     {
-        "name":"Nombre",
-        "designation":"Desarrollo",
-        "twitter":"https://twitter.com/",
-        "linkedin":"https://www.linkedin.com/",
-        "github":"https://github.com/",
-        "profileImage":"",
-        "website":""
-    },
-    {
-        "name":"Nombre",
-        "designation":"Management",
+        "name":"Este podrías ser tu",
+        "designation":"Voluntario(a)",
         "twitter":"",
-        "linkedin":"https://www.linkedin.com/",
+        "linkedin":"",
         "github":"",
         "profileImage":"",
         "website":""
     },
     {
-        "name":"Nombre",
-        "designation":"Desarrollo",
-        "twitter":"https://twitter.com/",
-        "linkedin":"https://www.linkedin.com/",
-        "github":"https://www.github.com/",
-        "profileImage":"",
-        "website":""
-    },
-    {
-        "name":"Nombre",
-        "designation":"Desarrollo",
-        "twitter":"https://twitter.com/",
-        "linkedin":"https://linkedin.com/",
-        "github":"https://github.com/",
-        "profileImage":"",
-        "website":"https://github.com"
-    },
-    {
-        "name":"Nombre",
-        "designation":"Desarrollo",
-        "twitter":"https://twitter.com/",
+        "name":"Este podrías ser tu",
+        "designation":"Voluntario(a)",
+        "twitter":"",
         "linkedin":"",
-        "github":"https://github.com/",
+        "github":"",
         "profileImage":"",
         "website":""
     }

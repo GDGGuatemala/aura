@@ -1,7 +1,7 @@
 {
     "ChapterName":"GDG Guatemala",
     "ChapterShortDescription":"Google Developers Group Guatemala es una iniciativa para concentrar los esfuerzos de muchos desarrolladores en Guatemala para aprender, compartir y ser productivos utilizando los diversos productos de Google.",
-    "ChapterLongDec":"Google Developer Group Guatemala TODO.",
+    "ChapterLongDec":"GDG Guatemala es una comunidad sin fines de lucro cuyo objetivo es el de aprender e intercambiar conocimientos y experiencias acerca de las tecnologías proporcionadas por Google u otros gigantes de la industria. Cualquiera puede participar de una forma libre y gratuita. Desde amantes de la tecnología, hasta desarrolladores profesionales, diseñadores y usuarios finales.",
     "ChapterMeetupLink":"https://www.meetup.com/GDG-Guatemala",
     "ChapterEmail":"info@gdgguatemala.dev",
     "website":"https://gdgguatemala.dev",
@@ -9,14 +9,19 @@
     "ChapterHashTags":["GDGGuatemala","GDG"],
     "socialLinks":[
         {
-            "name" : "Facebook",
-            "link" : "https://www.facebook.com/androidgt/",
-            "icon" : "fab fa-facebook"
-        },
-        {
             "name" : "Meetup",
             "link" : "https://www.meetup.com/GDG-Guatemala/",
             "icon" : "fab fa-meetup"
+        },
+        {
+            "name" : "Twitter",
+            "link" : "https://www.twitter.com/GDGGuatemala/",
+            "icon" : "fab fa-twitter"
+        },
+        {
+            "name" : "Facebook",
+            "link" : "https://www.facebook.com/androidgt/",
+            "icon" : "fab fa-facebook"
         }
     ],
     "wtmWebsite":"https://www.womentechmakers.com/",

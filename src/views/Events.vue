@@ -5,7 +5,7 @@
       <v-layout wrap align-center justify-center row fill-height class="my-0">
         <v-flex xs12 md10 class="my-0">
             <p class="google-font mb-0" style="font-size:200%;color:#0277bd">Eventos de {{ChapterDetails.ChapterName}}</p>
-            <p class="google-font mt-0 mb-0" style="font-size:110%">¿Preguntas? Por favor contacte a {{ChapterDetails.ChapterEmail}}.</p>
+            <p class="google-font mt-0 mb-0" style="font-size:110%">¿Preguntas? Por favor contacta a {{ChapterDetails.ChapterEmail}}.</p>
         </v-flex>
       </v-layout>
     </v-container>

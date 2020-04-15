@@ -1,21 +1,21 @@
 {
-    "FeatureEventName":"DevFest",
-    "EventImage":"imagenotfound.png",
+    "FeatureEventName":"Firebase Study Jam - Conoce Cloud Firestore",
+    "EventImage":"fsj1.png",
     "EventDate":{
-        "Date":"31",
-        "Month":"3",
-        "Year":"2019"
+        "Date":"17",
+        "Month":"4",
+        "Year":"2020"
     },
     "EventTime":{
-        "StartTime":"09:00 AM",
-        "EndTime":"04:30 PM"
+        "StartTime":"06:00 PM",
+        "EndTime":"09:00 PM"
     },
-    "EventVenue":"Guatemala",
-    "EventVenueMapLink":"https://www.google.com/maps",
-    "EventWebsite":"https://devfest.gt/",
-    "EventDescription":"Descripcion  TODO ....",
-    "MeetupLink":"https://www.meetup.com/GDG-Guatemala",
-    "RegistrationLink":"https://docs.google.com/forms",
-    "FBEventPageURL":"s"
+    "EventVenue":"",
+    "EventVenueMapLink":"",
+    "EventWebsite":"",
+    "EventDescription":"En esta nueva sesión de Firebase Study Jam nos acompañara Brian Castillo desde Peru. Brian es Google Developer Expert de Firebase y nos ayudará a entender más Cloud Firestore. Aprenderemos como realizar Cloud Firestore Queries, seguridad, transacciones y mucho más.",
+    "MeetupLink":"https://www.meetup.com/GDG-Guatemala/events/270062322/",
+    "RegistrationLink":"https://www.meetup.com/GDG-Guatemala/events/270062322/",
+    "FBEventPageURL":"https://www.facebook.com/androidgt/videos/310559789916745/"
 }
 

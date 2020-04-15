@@ -3,9 +3,9 @@
         <v-layout wrap align-center justify-center row fill-height >
            <v-flex xs12 md3 lg3 class="pa-2">
                <p class="google-font" style="font-size:180%">¿Que hacemos?</p>
-               <p class="google-font" style="font-size:110%">Google Developer Groups (GDGs) son para desarrolladores que están interesados en la tecnología de desarrollo de Google.</p>
+               <p class="google-font" style="font-size:110%">Los GDGs (Google Developer Groups) son para entusiastas, estudiantes y desarrolladores de todo nivel profesional, que estén interesados en aprender y en compartir sus conocimientos sobre las últimas tecnologías de Google y otros gigantes de la industria para el desarrollo de software y hardware.</p>
 
-               <p class="google-font" style="font-size:110%">Sobre diferentes tecnologías de Google</p>
+               <p class="google-font" style="font-size:110%">Estas son algunas de las tecnologías de Google de las que hablamos en nuestros meetups:</p>
 
                 <span v-for="(item,i) in whatWeDoData" :key="i">
                     <v-tooltip bottom>
@@ -30,25 +30,25 @@
                     <v-flex xs6 sm6 md3 lg3 class="text-xs-center pa-2">
                         <v-icon large style="font-size:300%">chat_bubble</v-icon>
                         <p class="google-font" style="font-size:130%">Charlas</p>
-                        <p class="google-font" style="font-size:110%">Manténte actualizado con las últimas noticias y anuncios</p>
+                        <p class="google-font" style="font-size:110%">Aprende de experimentados Speakers. Actualízate con las últimas técnicas, metodologías, buenas prácticas, noticias y anuncios</p>
                     </v-flex>
 
                     <v-flex xs6 sm6 md3 lg3 class="text-xs-center pa-2">
                         <v-icon large style="font-size:300%">code</v-icon>
                         <p class="google-font" style="font-size:130%">Codelabs</p>
-                        <p class="google-font" style="font-size:110%">Obten experiencia práctica y orientación de los miembros de la comunidad</p>
+                        <p class="google-font" style="font-size:110%">Los codelabs son tutoriales puestos a disposición por Google para aprender algo nuevo. Haciendo un codelab adquieres experiencia práctica, si tienes dificultades, puedes pedir y obtener apoyo de otros miembros de la comunidad.</p>
                     </v-flex>
 
                     <v-flex xs6 sm6 md3 lg3 class="text-xs-center pa-2">
                         <v-icon large style="font-size:300%">school</v-icon>
-                        <p class="google-font" style="font-size:130%">Campus Roadshows</p>
-                        <p class="google-font" style="font-size:110%">Compartir conocimientos en diferentes empresas, colegios y universidades</p>
+                        <p class="google-font" style="font-size:130%">Study Jams</p>
+                        <p class="google-font" style="font-size:110%">Conformamos grupos de estudio y realizamos talleres impartidos por miembros más experimentados de la comunidad para aprender a hacer apps, sitios web, back-ends o para aprender a utilizar ciertas tecnologías o herramientas de Google.</p>
                     </v-flex>
 
                     <v-flex xs6 sm6 md3 lg3 class="text-xs-center pa-2">
                         <v-icon large style="font-size:300%">airplay</v-icon>
-                        <p class="google-font" style="font-size:130%">Live Viewing Parties</p>
-                        <p class="google-font" style="font-size:110%">TODO</p>
+                        <p class="google-font" style="font-size:130%">Fiestas para ver eventos EN VIVO</p>
+                        <p class="google-font" style="font-size:110%">Eventualmente nos reunimos para ver un evento importante de la industria y poder comentarlo en comunidad.</p>
                     </v-flex>
 
                 </v-layout>

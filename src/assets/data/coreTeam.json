@@ -1,55 +1,19 @@
 [
     {
-        "name":"Nombre",
-        "designation":"Front End Developer",
+        "name":"Jimmy Morales",
+        "designation":"Software Engineer",
         "twitter":"https://twitter.com/jidomogo",
         "linkedin":"https://www.linkedin.com/in/jimmymorales26",
         "github":"https://github.com/jimmymorales",
-        "profileImage":"",
+        "profileImage":"jimmy_morales.jpg",
         "website":""
     },
     {
-        "name":"Nombre",
-        "designation":"Front End Developer",
-        "twitter":"https://twitter.com/jidomogo",
-        "linkedin":"https://www.linkedin.com/in/jimmymorales26",
-        "github":"https://github.com/jimmymorales",
-        "profileImage":"",
-        "website":""
-    },
-    {
-        "name":"Nombre",
-        "designation":"Front End Developer",
-        "twitter":"https://twitter.com/jidomogo",
-        "linkedin":"https://www.linkedin.com/in/jimmymorales26",
-        "github":"https://github.com/jimmymorales",
-        "profileImage":"",
-        "website":""
-    },
-    {
-        "name":"Nombre",
-        "designation":"Front End Developer",
+        "name":"Este podrías ser tu",
+        "designation":"Co-organizador",
         "twitter":"",
-        "linkedin":"https://www.linkedin.com/in/jimmymorales26",
-        "github":"https://github.com/jimmymorales",
-        "profileImage":"",
-        "website":""
-    },
-    {
-        "name":"Nombre",
-        "designation":"Front End Developer",
-        "twitter":"https://twitter.com/jidomogo",
-        "linkedin":"https://www.linkedin.com/in/jimmymorales26",
-        "github":"https://github.com/jimmymorales",
-        "profileImage":"",
-        "website":""
-    },
-    {
-        "name":"Nombre",
-        "designation":"Front End Developer",
-        "twitter":"https://twitter.com/jidomogo",
-        "linkedin":"https://www.linkedin.com/in/jimmymorales26",
-        "github":"https://github.com/jimmymorales",
+        "linkedin":"",
+        "github":"",
         "profileImage":"",
         "website":""
     }

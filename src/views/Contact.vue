@@ -4,7 +4,7 @@
       <v-layout wrap align-start justify-center row fill-height class="my-0">
         <v-flex xs12 md8 class="mb-0">
           
-          <p class="google-font mb-0 mt-3" style="font-size:200%;color:#616161">Póngase en contacto con {{ChapterDetails.ChapterName}}</p>
+          <p class="google-font mb-0 mt-3" style="font-size:200%;color:#616161">Ponte en contacto con {{ChapterDetails.ChapterName}}</p>
           <!-- <v-divider></v-divider> -->
           <p class="google-font mt-3" style="font-size:110%">Nuestros eventos están abiertos a novatos, desarrolladores, gerentes y organizaciones que estén interesados en las tecnologías de Google o las usen como parte de sus proyectos.</p>
           

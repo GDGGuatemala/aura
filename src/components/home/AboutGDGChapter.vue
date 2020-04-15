@@ -8,6 +8,8 @@
                </p>
                <v-btn :href="chapterDetails.ChapterMeetupLink" target="_blank" outline color="white" class="ma-0 google-font" style="border-radius:5px;text-transform: capitalize;">Meetup</v-btn>
                &nbsp;
+               <v-btn :href="chapterDetails.socialLinks[1].link" target="_blank" outline color="white" class="ma-0 google-font" style="border-radius:5px;text-transform: capitalize;">Twitter</v-btn>&nbsp;
+               &nbsp;
                <v-btn :href="chapterDetails.socialLinks[0].link" target="_blank" outline color="white" class="ma-0 google-font" style="border-radius:5px;text-transform: capitalize;">Pagina de Facebook</v-btn>
                 <br><br>
                <router-link to="/about" class="google-font" style="text-decoration:none;color:white">Ver más sobre {{chapterDetails.ChapterName}}</router-link>
