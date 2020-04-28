@@ -4,22 +4,22 @@
             <v-col cols="12" md="10" lg="10" sm="12" class="text-center mb-0" >
                 <p class="google-font mb-1" style="font-weight: 350;font-size:180%">
                     <b>
-                        Our
-                        <span style="color: #1a73e8;">Events</span> 
+                        Nuestros
+                        <span style="color: #1a73e8;">Eventos</span>
                         &
                         <span style="color: #1a73e8;">Meetups</span> 
                     </b> 
                 </p>
                 
                 <!-- <p class="google-font mb-0" style="font-size:180%">Our Events & Meetups</p> -->
-                <p class="google-font mt-0" style="font-size:95%">At sessions that span from the technical to the visionary, let’s celebrate and discover what the technologies can enable: how product innovation, open source, and ML and AI can propel enterprises forward and solve the big problems that impact all of us.</p>
+                <p class="google-font mt-0" style="font-size:95%">En las sesiones que abarcan desde lo técnico hasta lo visionario, celebremos y descubramos lo que las tecnologías pueden permitir: cómo la innovación de productos, el código abierto y ML e IA pueden impulsar a las empresas hacia adelante y resolver los grandes problemas que nos afectan a todos.</p>
                 <router-link
                     to="/events"
                     text
                     color="#4C4A78"
                     class="ma-0 google-font mb-0"
                     style="border-radius:5px;text-transform: capitalize;text-decoration:none;color:#4C4A78"
-                >See More</router-link>
+                >Ver Más</router-link>
             </v-col>
             <v-col cols="12" md="12" lg="12" sm="12" class="mt-0 px-0">
                <v-container fluid class="px-2 py-0">
@@ -46,7 +46,7 @@
                    <v-row v-if="notFoundEventFlag">
                        <v-col md="12" lg="12" sm="12" cols="12" class="pa-2 text-center">
                             <v-icon>mdi-close-octagon-outline</v-icon>
-                            <p>Events Not Found!</p>
+                            <p>Eventos No Encontrados!</p>
                        </v-col>
                    </v-row>
 
