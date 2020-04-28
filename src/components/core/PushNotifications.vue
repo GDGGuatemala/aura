@@ -8,12 +8,12 @@
       </template>
 
       <v-card>
-        <v-card-title>Allow Us to send Push Notification</v-card-title>
+        <v-card-title>Permítenos enviar Push Notification</v-card-title>
 
         <v-card-text>
-          <p>We never spam you by sending unnecessary Push Notification.</p>
+          <p>Nunca te enviamos spam enviando Push Notification innecesarias.</p>
           <p>
-            <span class="font-weight-bold text--primary">Status:</span>
+            <span class="font-weight-bold text--primary">Estado:</span>
             {{ token }}
           </p>
         </v-card-text>
@@ -26,10 +26,10 @@
             color="primary"
             text
             :loading="isLoading"
-            :disabled="buttonText=='Allowed'"
+            :disabled="buttonText=='Permitido'"
             @click="requestPermission"
           >{{ buttonText }}</v-btn>
-          <v-btn color="error" text @click="dialog = false">close</v-btn>
+          <v-btn color="error" text @click="dialog = false">cerrar</v-btn>
         </v-card-actions>
       </v-card>
     </v-dialog>
@@ -45,8 +45,8 @@ export default {
     return {
       dialog: false,
       isLoading: false,
-      token: "Not Granted Yet",
-      buttonText: "Allow"
+      token: "No Concedido Todavía",
+      buttonText: "Permitir"
     };
   },
   computed: {
@@ -61,7 +61,7 @@ export default {
             `${this.config.keysandsecurity.web_push_certificate}`
           );
           this.isLoading = true;
-          this.token = "Please wait...";
+          this.token = "Por favor espera...";
           Notification.requestPermission().then(permission => {
             if (permission === "granted") {
               let token = localStorage.getItem("pushNotificationToken");
@@ -76,7 +76,7 @@ export default {
                           token: currentToken
                         })
                         .then(() => {
-                          this.token = "Successfully Subscribed";
+                          this.token = "Suscrito exitosamente";
                           // alert("SuccessFully Subscribed");
                           this.displayNotificaion();
                           localStorage.setItem(
@@ -84,7 +84,7 @@ export default {
                             currentToken
                           );
                           this.isLoading = false;
-                          this.buttonText = "Allowed";
+                          this.buttonText = "Permitido";
                         })
                         .catch(err => {
                           this.token = err;
@@ -93,7 +93,7 @@ export default {
                     } else {
                       this.isLoading = false;
                       this.token =
-                        "No Instance ID token available. Request permission to generate one.";
+                        "No hay token de Instance ID disponible. Solicita permiso para generar uno.";
                     }
                   })
                   .catch(err => {
@@ -101,18 +101,18 @@ export default {
                     this.token = err;
                   });
               } else {
-                this.token = "Already Subscribed";
+                this.token = "Ya suscrito";
                 this.isLoading = false;
-                this.buttonText = "Allowed";
+                this.buttonText = "Permitido";
               }
             } else {
               this.isLoading = false;
-              this.token = "Unable to get permission to notify.";
+              this.token = "No se puede obtener permiso para notificar.";
             }
           });
         } else {
           this.isLoading = false;
-          this.token = "We Don't Support your browser";
+          this.token = "No soportamos tu navegador";
         }
       } catch (err) {
         // alert(err);
@@ -123,7 +123,7 @@ export default {
     displayNotificaion() {
       if ("serviceWorker" in navigator) {
         var options = {
-          body: "You Successfully Subscribed to Push Notifications",
+          body: "Te has Suscrito Correctamente a las Push Notifications",
           icon: "img/icons/favicon-32x32.png",
           dir: "ltr",
           badge: "img/icons/favicon-32x32.png",
@@ -132,12 +132,12 @@ export default {
           actions: [
             {
               action: "open",
-              title: "Visit Site"
+              title: "Visitar sitio"
             }
           ]
         };
         navigator.serviceWorker.ready.then(function(swreg) {
-          swreg.showNotification("Successfully Subscribed", options);
+          swreg.showNotification("Suscrito exitosamente", options);
         });
       }
     }
@@ -145,8 +145,8 @@ export default {
   mounted() {
     let token = localStorage.getItem("pushNotificationToken");
     if (token && token.length > 0) {
-      this.token = 'Already Subscribed';
-      this.buttonText == "Allowed";
+      this.token = 'Ya suscrito';
+      this.buttonText = "Permitido";
     }
   }
 };
