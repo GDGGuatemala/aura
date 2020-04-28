@@ -91,8 +91,8 @@ export default {
     ]),
     showRefreshUI(e) {
       this.registration = e.detail;
-      this.snackBtnText = "Refresh";
-      this.snackWithBtnText = "New version available!";
+      this.snackBtnText = "Actualiza";
+      this.snackWithBtnText = "Nueva versión disponible!";
       this.snackWithButtons = true;
     },
     refreshApp() {
