@@ -15,7 +15,7 @@
           class="google-font mt-0 mb-0"
           style="font-size:90%;"
         >{{data.data.venue.name | summary(20) }}</p>
-        <p class="mb-0 mt-2 google-font" style="color:#1a73e8">See More</p>
+        <p class="mb-0 mt-2 google-font" style="color:#1a73e8">Ver Más</p>
       </div>
     </template>
     <v-card :class="this.$vuetify.theme.dark == true?'grey darken-3':'white'" v-if="dialog">
@@ -39,7 +39,7 @@
           {{data.data.local_time}}
         </p>
         <p class="google-font mt-3 mb-0" style="font-size:110%">
-          <b>Description:</b>
+          <b>Descripción:</b>
           <span v-html="$options.filters.summary(data.data.description,100)"></span>
         </p>
         <v-btn
@@ -50,14 +50,14 @@
           class="ma-0 elevation-0 my-2 mr-3"
           dark
           style="text-transform: capitalize;"
-        >See More at Meetup</v-btn>
+        >Ver más en Meetup</v-btn>
       </v-card-text>
 
       <v-divider></v-divider>
 
       <v-card-actions>
         <v-spacer></v-spacer>
-        <v-btn color="primary" text @click="dialog = false">Close</v-btn>
+        <v-btn color="primary" text @click="dialog = false">Cerrar</v-btn>
       </v-card-actions>
     </v-card>
   </v-dialog>
@@ -88,7 +88,7 @@ export default {
     },
     dateFilter: value => {
       const date = new Date(value);
-      return date.toLocaleString(["en-US"], {
+      return date.toLocaleString(["es-GT"], {
         month: "short",
         day: "2-digit",
         year: "numeric"
