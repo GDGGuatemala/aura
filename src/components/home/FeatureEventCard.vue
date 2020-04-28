@@ -10,7 +10,7 @@
         <p class="google-font mb-0" style="font-size:90%">{{data.date | dateFilter}}</p>
         <p class="google-font mb-0" style="font-size:120%">{{data.name}}</p>
         <p class="google-font mb-0" style="font-size:90%">{{data.venue.name | summary(20)}}</p>
-        <p class="mb-0 mt-2 google-font" style="color:#1a73e8">See More</p>
+        <p class="mb-0 mt-2 google-font" style="color:#1a73e8">Ver Más</p>
       </div>
     </template>
     <v-card
@@ -29,7 +29,7 @@
           <v-icon>mdi-open-in-new</v-icon>
         </v-btn> 
       </template>
-      <span>Open in New Tab</span>
+      <span>Abrir en una Pestaña Nueva</span>
     </v-tooltip>
         
       </v-card-title>
@@ -40,7 +40,7 @@
         <p class="google-font">{{data.time.starttime}} - {{data.time.endtime}}</p>
 
         <p class="google-font mb-0" style="font-size:95%">
-          <b>Description</b>
+          <b>Descripción</b>
         </p>
         <p class="google-font mt-0" style="font-size:110%">{{data.des}}</p>
 
@@ -51,7 +51,7 @@
           class="ma-0 elevation-0 my-2 mr-3"
           dark
           style="text-transform: capitalize;"
-        >Event Page</v-btn>
+        >Página del evento</v-btn>
 
         <v-btn
           color="#1a73e8"
@@ -61,7 +61,7 @@
           class="ma-0 elevation-0 my-2 mr-3"
           dark
           style="text-transform: capitalize;"
-        >Registration Link</v-btn>
+        >Enlace de Registro</v-btn>
         <v-btn
           color="pink"
           v-if="checkExistance(data.links.meetup,0)"
@@ -70,7 +70,7 @@
           class="ma-0 elevation-0 my-2 mr-3"
           dark
           style="text-transform: capitalize;"
-        >Meetup Page</v-btn>
+        >Página de Meetup</v-btn>
         <v-btn
           color="red"
           v-if="checkExistance(data.links.youtube,0)"
@@ -86,7 +86,7 @@
 
       <v-card-actions :class="this.$vuetify.theme.dark == true?'grey darken-3':'grey lighten-3'">
         <v-spacer></v-spacer>
-        <v-btn color="primary" text @click="dialog = false">Close</v-btn>
+        <v-btn color="primary" text @click="dialog = false">Cerrar</v-btn>
       </v-card-actions>
     </v-card>
   </v-dialog>
@@ -115,7 +115,7 @@ export default {
     },
     dateFilter: value => {
       const date = new Date(value);
-      return date.toLocaleString(["en-US"], {
+      return date.toLocaleString(["es-GT"], {
         month: "short",
         day: "2-digit",
         year: "numeric"
