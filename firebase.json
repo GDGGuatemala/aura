@@ -1,11 +1,13 @@
 {
   "hosting": {
-    "site":"myaurapp",
+    "site": "gdg-guatemala-web-app",
     "public": "dist",
-    "rewrites": [ {
+    "rewrites": [
+      {
         "source": "**",
         "destination": "/index.html"
-    } ],
+      }
+    ],
     "ignore": [
       "firebase.json",
       "**/.*",
