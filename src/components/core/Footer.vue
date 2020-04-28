@@ -11,7 +11,7 @@
         <v-col cols="12" md="10" lg="10" sm="11" class="py-0 my-0">
           <v-divider v-if="!this.$vuetify.theme.dark"></v-divider>
           <!-- {{socialLinks}} -->
-          <p class="google-font mt-4 mb-3" style="font-size:130%" >Follow Us:
+          <p class="google-font mt-4 mb-3" style="font-size:130%" >Síguenos:
               <v-tooltip top v-if="checkExistance(config.generalConfig.socialLinks.facebook,0)">
                  <template v-slot:activator="{ on }">
                     <v-btn text icon v-on="on" :href="config.generalConfig.socialLinks.facebook" target="_blank" slot="activator">
@@ -75,14 +75,14 @@
 
             <v-row justify="start" class="">
               <v-col cols="12" md="3" lg="3" sm="3" class="py-2" >
-                  <p class="google-font mb-0" style="font-size: 140%;font-weight: 300;"><b>About</b></p>
+                  <p class="google-font mb-0" style="font-size: 140%;font-weight: 300;"><b>Acerca De</b></p>
                   <div v-for="(item,i) in config.footerConfig['About']" :key="i">
                         <a :href="item.link" :class="$vuetify.theme.dark?'darkThemeTextLink':'lightThemeTextLink'" class="google-font my-3" target="_blank" style="text-decoration: none;font-size:110%">{{item.linkname}}</a><br>
                   </div>
               </v-col>
 
               <v-col cols="12" md="3" lg="3" sm="3" class="py-2" >
-                  <p class="google-font mb-0" style="font-size: 140%;font-weight: 300;"><b>Resources</b></p>
+                  <p class="google-font mb-0" style="font-size: 140%;font-weight: 300;"><b>Recursos</b></p>
                   <div v-for="(item,i) in config.footerConfig['Resources']" :key="i">
                         <a :href="item.link" :class="$vuetify.theme.dark?'darkThemeTextLink':'lightThemeTextLink'" class="google-font my-3" target="_blank" style="text-decoration: none;font-size:110%">{{item.linkname}}</a><br>
                   </div>
