@@ -11,7 +11,7 @@
               style="border-radius:5px;text-transform: capitalize;text-decoration:none;"
             >
               <v-icon left style="font-size:150%">mdi-arrow-left-thick</v-icon>
-              <span style="font-size:120%">Team</span>
+              <span style="font-size:120%">Equipo</span>
             </v-btn>
 
             <v-spacer></v-spacer>
@@ -65,8 +65,8 @@
                   label
                   color="green"
                   small
-                >Active</v-chip>
-                <v-chip class="ma-1" v-else label dark color="red" small>Not Active</v-chip>
+                >Activo</v-chip>
+                <v-chip class="ma-1" v-else label dark color="red" small>No Activo</v-chip>
               </v-col>
               <v-col md="9" lg="9" sm="8" cols="12">
                 <p class="mb-0">
@@ -75,7 +75,7 @@
                 <p class="mt-1 mb-0 google-font mt-0" style="font-size:110%">{{MemberDetails.bio}}</p>
 
                 <p class="mb-0 mt-3">
-                  <b>Social Links</b>
+                  <b>Redes Sociales</b>
                 </p>
                 <p class="mt-1 mb-0 google-font mt-0" style="font-size:110%">
                   <span
@@ -127,10 +127,10 @@
                     </v-row>
                   </template>
                 </v-img>
-                <h2 class="google-font">Team Member Not Found</h2>
+                <h2 class="google-font">Miembro del equipo no encontrado</h2>
                 <p
                   class="google-font"
-                >The requested URL /{{this.$route.params.id}} was not found on this server. That’s all we know.</p>
+                >La URL solicitada /{{this.$route.params.id}} no fue encontrado en este servidor. Eso es todo lo que sabemos.</p>
               </v-col>
             </v-row>
           </v-container>
