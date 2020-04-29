@@ -8,7 +8,7 @@ const routes = [{
     name: 'Home',
     component: () => import( /* webpackChunkName: "home" */ '../views/Home.vue'),
     meta: {
-      title: 'Home ',
+      title: 'Inicio ',
       color: '#0277bd',
     }
   },
@@ -17,7 +17,7 @@ const routes = [{
     name: 'About',
     component: () => import( /* webpackChunkName: "about" */ '../views/About.vue'),
     meta: {
-      title: 'About ',
+      title: 'Acerca De ',
       color: '#0277bd',
     }
   },
@@ -26,7 +26,7 @@ const routes = [{
     name: 'Team',
     component: () => import( /* webpackChunkName: "team" */ '../views/Team.vue'),
     meta: {
-      title: 'Team ',
+      title: 'Equipo ',
       color: '#0277bd',
     }
   },
@@ -35,7 +35,7 @@ const routes = [{
     name: 'Team Details',
     component: () => import( /* webpackChunkName: "team-details" */ '../views/Team/TeamDetails.vue'),
     meta: {
-      title: 'Team Details',
+      title: 'Detalles del Equipo',
       color: '#0277bd',
     }
   },
@@ -44,7 +44,7 @@ const routes = [{
     name: 'Events',
     component: () => import( /* webpackChunkName: "events" */ '../views/Events.vue'),
     meta: {
-      title: 'Events ',
+      title: 'Eventos ',
       color: '#0277bd',
     }
   },
@@ -53,7 +53,7 @@ const routes = [{
     name: 'Events-Details',
     component: () => import( /* webpackChunkName: "events-details" */ '../views/Events/EventDetails.vue'),
     meta: {
-      title: 'Events ',
+      title: 'Eventos ',
       color: '#0277bd',
     }
   },
@@ -80,7 +80,7 @@ const routes = [{
     name: 'Volunteers',
     component: () => import( /* webpackChunkName: "volunteer" */ '../views/Volunteer.vue'),
     meta: {
-      title: 'Volunteers ',
+      title: 'Voluntarios ',
       color: '#0277bd',
     }
   },
@@ -98,7 +98,7 @@ const routes = [{
     name: 'Contact',
     component: () => import( /* webpackChunkName: "contact" */ '../views/Contact.vue'),
     meta: {
-      title: 'Contact ',
+      title: 'Contacto ',
       color: '#0277bd',
     }
   },
@@ -118,7 +118,7 @@ const routes = [{
       path: '/'
     },
     meta: {
-      title: `Redirect `,
+      title: `Redirigir `,
       color: "#0277bd",
     }
   },
