@@ -3,14 +3,14 @@
     <v-container fluid>
         <v-snackbar v-model="errorAlert" bottom left>
             {{ errorMsg }}
-            <v-btn color="pink" text @click="errorAlert = false">Close</v-btn>
+            <v-btn color="pink" text @click="errorAlert = false">Cerrar</v-btn>
         </v-snackbar>
         <v-row align="center" justify="center" class="mb-5">
             <v-col cols="12" md="12" lg="12" sm="12" class="">
                 <v-row>
                     <v-col md="6" lg="6" sm="6" cols="12">
-                        <p class="google-font mb-0" style="font-size:150%;color: #1a73e8;">Directory of past events</p>
-                        <p class="google-font mt-0 mb-0" style="font-size:95%">Events are listed in reverse chronological order by date.</p>
+                        <p class="google-font mb-0" style="font-size:150%;color: #1a73e8;">Directorio de eventos pasados</p>
+                        <p class="google-font mt-0 mb-0" style="font-size:95%">Los eventos se enumeran en orden cronológico inverso por fecha.</p>
                     </v-col>
                     <v-col md="6" lg="6" sm="6" cols="12">
                         <v-text-field
@@ -19,7 +19,7 @@
                             solo-inverted
                             hide-details
                             prepend-inner-icon="mdi-search-web"
-                            label="Search"
+                            label="Buscar"
                             single-line
                         ></v-text-field>
                     </v-col>
@@ -34,15 +34,19 @@
                     :headers="headers"
                     :items="eventsData"
                     :loading="isLoading"
+                    loading-text="Cargando elementos..."
                     :items-per-page="5"
+                    rows-per-page-text="Filas por página"
                     :class="$vuetify.theme.dark == true?'darkModeCard':'card-light'"
                 >   
                     <template v-slot:item.name="{ item }">
                         {{item.name}}
                     </template>
-
+                    <template v-slot:item.local_date="{ item }">
+                        {{item.local_date | dateFilter}}
+                    </template>
                     <template v-slot:item.link="{ item }">
-                        <a :href="item.link" target="_blank">See More</a>
+                        <a :href="item.link" target="_blank">Ver Más</a>
                     </template>
                 </v-data-table>
             </v-col>
@@ -70,12 +74,12 @@ import { mapState } from 'vuex'
             errorMsg: '',
             headers: [
                 {
-                    text: 'Event Name',
+                    text: 'Nombre del Evento',
                     align: 'start',
                     value: 'name',
                 },
-                { text: 'Date', value: 'local_date' },
-                { text: 'See More', value: 'link' },
+                { text: 'Fecha', value: 'local_date' },
+                { text: 'Ver Más', value: 'link' },
             ],
         }),
         mounted(){
@@ -96,6 +100,16 @@ import { mapState } from 'vuex'
                     this.isLoading = false
                     this.errorAlert = true;
                 })
+            }
+        },
+        filters: {
+            dateFilter: value => {
+                const date = new Date(value);
+                return date.toLocaleString(["es-GT"], {
+                    month: "short",
+                    day: "2-digit",
+                    year: "numeric"
+                });
             }
         }
     };
