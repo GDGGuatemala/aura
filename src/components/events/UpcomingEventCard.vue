@@ -27,15 +27,15 @@
       <v-card-text class="pa-5">
         <!-- <v-chip :color="data.vdata.tag.color" label outlined class="mt-1 mb-0" small>{{data.vdata.tag.name}}</v-chip> -->
         <p class="google-font mt-3 mb-0" style="font-size:110%">
-          <b>Venue:</b>
+          <b>Lugar:</b>
           {{data.data.venue.name}}
         </p>
         <p class="google-font mt-1 mb-0" style="font-size:110%">
-          <b>Date:</b>
+          <b>Fecha:</b>
           {{data.data.local_date | dateFilter}}
         </p>
         <p class="google-font mt-0 mb-0" style="font-size:110%;">
-          <b>Time:</b>
+          <b>Hora:</b>
           {{data.data.local_time}}
         </p>
         <p class="google-font mt-3 mb-0" style="font-size:110%">
