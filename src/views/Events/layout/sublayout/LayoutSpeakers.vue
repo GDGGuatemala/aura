@@ -7,7 +7,7 @@
         </v-row>
         <v-row justify="center" align="center" class="py-5" v-else-if="sData.length<=0 && !isLoading">
           <v-col cols="12" md="12" class="text-center">
-            <p class="google-font" style="font-size:120%">No Speaker Found.</p>
+            <p class="google-font" style="font-size:120%">No Speaker Encontrado.</p>
           </v-col>
         </v-row>
         <v-row class="py-0 my-0" v-else>
