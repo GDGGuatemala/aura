@@ -8,7 +8,7 @@
             <p
               class="google-font mt-1 mb-0"
               style="font-size:110%"
-            >A very big thank you to all our partners for their continued partnership.</p>
+            >Muchas gracias a todos nuestros patrocinadores por su asociación continua.</p>
           </v-col>
         </v-row>
         <v-row justify="center" align="center" class="py-5" v-if="isLoading">
