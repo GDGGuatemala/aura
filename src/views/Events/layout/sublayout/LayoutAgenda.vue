@@ -34,13 +34,13 @@ export default {
     data:()=>({
         headers: [
             {
-                text: 'Start Time',
+                text: 'Hora de Inicio',
                 align: 'start',
                 value: 'starttime',
             },
-            { text: 'End Time', value: 'endtime' },
-            { text: 'Title', value: 'title' },
-            { text: 'Description', value: 'des' }
+            { text: 'Hora de Finalización', value: 'endtime' },
+            { text: 'Título', value: 'title' },
+            { text: 'Descripción', value: 'des' }
         ]
     })
     
