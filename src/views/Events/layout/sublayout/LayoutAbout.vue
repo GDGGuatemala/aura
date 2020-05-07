@@ -11,13 +11,13 @@
                             <v-chip class="mr-1" :href="'https://twitter.com/hashtag/'+item" target="_blank" label small>#{{item}}</v-chip>
                         </span>
                         
-                        <p class="google-font mb-0 mt-3"><b>Date:</b> {{data.date}}</p>
-                        <p class="google-font my-0"><b>Time: </b> {{data.time.starttime}} - {{data.time.endtime}}</p>
-                        <p class="google-font my-0"><b>Venue: </b> <a target="_blank" style="text-decoration:none" :href="data.venue.googlemapsurl">{{data.venue.name}}</a></p>
+                        <p class="google-font mb-0 mt-3"><b>Fecha:</b> {{data.date}}</p>
+                        <p class="google-font my-0"><b>Hora: </b> {{data.time.starttime}} - {{data.time.endtime}}</p>
+                        <p class="google-font my-0"><b>Lugar: </b> <a target="_blank" style="text-decoration:none" :href="data.venue.googlemapsurl">{{data.venue.name}}</a></p>
 
                         <div class="mt-4 pb-5">
-                            <p class="google-font mb-0"><b>Important Links</b></p>
-                            <v-btn color="primary" dark target="_blank" v-if="data.links.registration" :href="data.links.registration" class="ma-1" label small>Registration</v-btn>          
+                            <p class="google-font mb-0"><b>Links Importantes</b></p>
+                            <v-btn color="primary" dark target="_blank" v-if="data.links.registration" :href="data.links.registration" class="ma-1" label small>Registro</v-btn>
                             <v-btn color="pink" dark target="_blank" v-if="data.links.meetup" :href="data.links.meetup" class="ma-1" label small>Meetup</v-btn>
 
                             <v-btn color="orange" dark target="_blank" v-if="data.links.callforspeaker" :href="data.links.callforspeaker" class="ma-1" label small>Call For Speakers</v-btn>
