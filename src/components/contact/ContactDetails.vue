@@ -2,9 +2,9 @@
     <v-container fluid class="py-0 my-0 mt-0">
         <v-row class="py-0 my-0">
             <v-col md="9" sm="6" cols="12" class="py-0 my-0">
-                <p class="google-font mb-1" style="font-size:110%">Our events are open to newbies, developers, managers, and organizations who are interested in Google's technologies or use them as part of their projects.</p>
+                <p class="google-font mb-1" style="font-size:110%">Nuestros eventos están abiertos a principiantes, desarrolladores, gerentes y organizaciones que estén interesados en las tecnologías de Google o las usen como parte de sus proyectos.</p>
                 <p class="google-font">{{data.shortDescription}}</p>
-                <p class="google-font mt-5">Questions? Please contact {{data.email}}</p>
+                <p class="google-font mt-5">¿Preguntas? Por favor contacta a {{data.email}}</p>
                 <span v-for="(item,i) in data.hashtags" :key="i">
                     <v-chip class="mr-1" :href="'https://twitter.com/hashtag/'+item" target="_blank" label>#{{item}}</v-chip>
                 </span>
