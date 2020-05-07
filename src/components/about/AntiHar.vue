@@ -34,28 +34,28 @@
                     <span class="google-font" style="font-size:100%">Lo anterior no es una lista exhaustiva: no toleramos el acoso de los participantes del evento de ninguna forma. </span>
                 </p>
 
-                <p class="google-font" style="font-size:120%">Sexual language and imagery is not appropriate for any event venue, including talks. Event participants violating these rules may be expelled from the event, and event banned from future events at the discretion of the event organizers/management. </p>
+                <p class="google-font" style="font-size:120%">El lenguaje y las imágenes sexuales no son apropiadas para ningún evento, incluidas las charlas. Los participantes del evento que violen estas reglas pueden ser expulsados del evento, y el evento será excluido de eventos futuros a discreción de los organizadores/administradores del evento. </p>
 
-                <p class="google-font" style="font-size:110%">Harassment includes (but is not limited to):
+                <p class="google-font" style="font-size:110%">El acoso incluye (pero no se limita a):
                     <ul class="mt-2" style="font-size:100%">
-                        <li class="google-font">Offensive verbal comments related to gender, sexual orientation, disability, gender identity, age, race, religion</li>
-                        <li class="google-font">The use or display of sexual images in public spaces</li>
-                        <li class="google-font">Deliberate intimidation</li>
-                        <li class="google-font">Stalking</li>
-                        <li class="google-font">Harassing photography or recording</li>
-                        <li class="google-font">Sustained disruption of talks or other events</li>
-                        <li class="google-font">Inappropriate physical contact</li>
-                        <li class="google-font">Unwelcome sexual attention</li>
+                        <li class="google-font">Comentarios verbales ofensivos relacionados con género, orientación sexual, discapacidad, identidad de género, edad, raza, religión</li>
+                        <li class="google-font">El uso o exhibición de imágenes sexuales en espacios públicos</li>
+                        <li class="google-font">Intimidación deliberada</li>
+                        <li class="google-font">Acecho</li>
+                        <li class="google-font">Fotografía o grabación acosante</li>
+                        <li class="google-font">Interrupción sostenida de conversaciones u otros eventos</li>
+                        <li class="google-font">Contacto físico inapropiado</li>
+                        <li class="google-font">Atención sexual no deseada</li>
                     </ul>
                 </p>
 
-                <p class="google-font" style="font-size:100%">Participants asked to stop any harassing behavior are expected to comply immediately. 
+                <p class="google-font" style="font-size:100%">Se espera que los participantes que soliciten detener cualquier comportamiento de acoso cumplan de inmediato.
                     <br><br>
-                    Exhibiting partners and guests are also subject to the anti-harassment policy. In particular, exhibitors and speakers should not use sexualized images, activities, or other material, or otherwise create a sexualized environment in their slide decks, exhibit material, exhibit staffing, promotional items or demo material. 
+                    Los expositores e invitados también están sujetos a la política contra el acoso. En particular, los expositores y oradores no deben usar imágenes, actividades u otro material sexualizado, o crear un ambiente sexualizado en sus cubiertas de diapositivas, material de exhibición, personal de exhibición, artículos promocionales o material de demostración.
                     <br><br>
-                    If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact an organizer or event volunteer immediately. Organizers and event volunteers may be identified by t-shirts or special badges/lanyards. Organizers will investigate the issue and take appropriate action. This may include helping participants contact venue security or local law enforcement, provide escorts, or otherwise assist these experiencing harassment to fell safe for the duration of the event. 
+                    Si estás siendo hostigado, observas que alguien más está siendo hostigado o si tienes alguna otra inquietud, comunícate de inmediato con un organizador o voluntario del evento. Los organizadores y los voluntarios del evento pueden identificarse con camisetas o insignias / cintas especiales. Los organizadores investigarán el problema y tomarán las medidas apropiadas. Esto puede incluir ayudar a los participantes a ponerse en contacto con la seguridad del lugar o con la policía local, proporcionar escoltas o de otra manera ayudar a estos que sufren acoso a permanecer seguros durante la duración del evento.
                     <br><br>
-                    Though we hope that we never have to invoke this policy, we believe that having this document helps everyone think a little more about how their actions and words affect the whole community, as well as individuals in the community.
+                    Aunque esperamos no tener que invocar esta política, creemos que tener este documento ayuda a todos a pensar un poco más sobre cómo sus acciones y palabras afectan a toda la comunidad, así como a las personas de la comunidad.
                 </p>
             </v-col>
             <v-col md="4" sm="4" cols="12" class="py-0 my-0 hidden-sm-and-down">
