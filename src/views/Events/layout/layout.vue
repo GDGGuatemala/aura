@@ -98,7 +98,7 @@ export default {
     return {
       blogsData: [],
       tab: null,
-      items: ["About", "Speakers", "Agenda", "Partners"],
+      items: ["Detalles", "Speakers", "Agenda", "Partners"],
       icons: false,
       centered: false,
       grow: false,
