@@ -77,7 +77,7 @@ export default new Vuex.Store({
           showBottomNav: false
         },
       },
-      {
+      /*{
         text: 'Blogs',
         to: '/blogs',
         icon: 'mdi-blogger',
@@ -85,7 +85,7 @@ export default new Vuex.Store({
           showToolbar: true,
           showBottomNav: false
         },
-      }
+      }*/
     ]
   },
   getters: {
