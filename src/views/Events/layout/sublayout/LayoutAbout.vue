@@ -11,7 +11,7 @@
                             <v-chip class="mr-1" :href="'https://twitter.com/hashtag/'+item" target="_blank" label small>#{{item}}</v-chip>
                         </span>
                         
-                        <p class="google-font mb-0 mt-3"><b>Fecha:</b> {{data.date}}</p>
+                        <p class="google-font mb-0 mt-3"><b>Fecha:</b> {{data.date | dateFilter}}</p>
                         <p class="google-font my-0"><b>Hora: </b> {{data.time.starttime}} - {{data.time.endtime}}</p>
                         <p class="google-font my-0"><b>Lugar: </b> <a target="_blank" style="text-decoration:none" :href="data.venue.googlemapsurl">{{data.venue.name}}</a></p>
 
@@ -47,6 +47,16 @@ export default {
         return {
         }
     },
+    filters: {
+        dateFilter: value => {
+            const date = new Date(value);
+            return date.toLocaleString(["es-GT"], {
+                month: "short",
+                day: "2-digit",
+                year: "numeric"
+            });
+        }
+    }
     
 }
 </script>
