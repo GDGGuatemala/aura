@@ -53,7 +53,8 @@ export default {
             return date.toLocaleString(["es-GT"], {
                 month: "short",
                 day: "2-digit",
-                year: "numeric"
+                year: "numeric",
+timeZone: "UTC"
             });
         }
     }

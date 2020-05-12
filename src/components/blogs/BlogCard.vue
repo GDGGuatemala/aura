@@ -91,10 +91,10 @@
         },
         dateFilter: value => {
             const date = new Date(value);
-            return date.toLocaleString(["en-US"], {
+            return date.toLocaleString(["es-GT"], {
                 month: "short",
                 day: "2-digit",
-                year: "numeric"
+                year: "numeric,
             });
         }
     }
