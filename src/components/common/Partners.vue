@@ -16,7 +16,7 @@
             </v-col>
             <v-col cols="6" md="3" xl="2" lg="2" sm="4"  v-for="(itemp,i) in partnersData" :key="i">
                 <div class="client-logo ma-0">
-                <a v-bind:href="itemp.socialLinks.linkedin" target="_blank">
+                <a v-bind:href="itemp.socialLinks.web" target="_blank">
                     <v-tooltip bottom>
                     <template v-slot:activator="{ on }">
                         <v-img
